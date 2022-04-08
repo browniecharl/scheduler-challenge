@@ -1,4 +1,4 @@
-// shows current day
+// shows current date
 $("#currentDay").text(moment().format("MMM Do YY"));
 // set button function
 $(".saveBtn").on("click", function(){

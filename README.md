@@ -3,7 +3,7 @@
 ![](./assets/scheduler-screenshot.png)
 
 ## Purpose
-Build a scheduler that can help an employee manage thier time effectively
+Build a scheduler that can help an employee manage their time effectively.
 
 ## Built with
 * HTML
