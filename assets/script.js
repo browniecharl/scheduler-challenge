@@ -5,7 +5,7 @@ $(".saveBtn").on("click", function(){
     var time = $(this).parent().attr("id");
     localStorage.setItem(time, text);
 })
-
+// Get saved data from local storage
 $("#time9 .description").val(localStorage.getItem("time9"));
 $("#time10 .description").val(localStorage.getItem("time10"));
 $("#time11 .description").val(localStorage.getItem("time11"));
@@ -15,8 +15,8 @@ $("#time14 .description").val(localStorage.getItem("time14"));
 $("#time15 .description").val(localStorage.getItem("time15"));
 $("#time16 .description").val(localStorage.getItem("time16"));
 $("#time17 .description").val(localStorage.getItem("time17"));
-//console.log(localStorage);
 
+// if else statement for time identifier
 function checkHours() {
     var currentHour = moment().hour();
     $(".time-block").each(function() {
@@ -40,4 +40,5 @@ function checkHours() {
         }
     })
 }
+//Runs again to keep time identifier up to date
 checkHours();
